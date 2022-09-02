@@ -25,9 +25,9 @@ export const config = {
      */
     USERS: [
       {name: '自己', id: "owgbX5ibnJiWTecpkoRKdi1NRbUc"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
-      {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+//       {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
+//       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
+//       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
@@ -54,10 +54,10 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "2000", "date": "03-30"},
+      {"type": "生日", "name": "生日", "year": "2000", "date": "03-30"},
       {"type": "节日", "name": "纪念日", "year": "2020", "date": "10-01"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+//       {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+//       {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     ],
 
     /**
@@ -65,7 +65,7 @@ export const config = {
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
      */
-    FESTIVALS_LIMIT: 4,
+    FESTIVALS_LIMIT: 2,
 
     /** 日期相关 */
 
