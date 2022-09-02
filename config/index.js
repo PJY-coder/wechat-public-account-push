@@ -4,10 +4,10 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "夹心私人reminder",
+    APP_ID: "wx162ab86a6e906df4",
 
     // 公众号APP_SECRET
-    APP_SECRET: "secret",
+    APP_SECRET: "a995d297f2353b1a4eb6b3fb41dbb94d",
 
     // 模板消息id
     TEMPLATE_ID: "8dnQ0AwrIP8XYlV1MqAOn50i6vQEMEHgeELIv0OB8gM",
