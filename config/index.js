@@ -4,16 +4,16 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "夹心私人reminder",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "secret",
 
     // 模板消息id
-    TEMPLATE_ID: "",
+    TEMPLATE_ID: "8dnQ0AwrIP8XYlV1MqAOn50i6vQEMEHgeELIv0OB8gM",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "",
+    CALLBACK_TEMPLATE_ID: "send successfully !",
 
 
     /**
@@ -24,14 +24,14 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
+      {name: '自己', id: "owgbX5ibnJiWTecpkoRKdi1NRbUc"}, 
       {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '自己',id: "owgbX5ibnJiWTecpkoRKdi1NRbUc"}, 
     ],
      
     /**
@@ -41,9 +41,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "陕西",
     // 所在城市
-    CITY: "惠州",
+    CITY: "西安",
 
     /** 重要节日相关 */
 
@@ -54,8 +54,8 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+      {"type": "生日", "name": "老婆", "year": "2000", "date": "03-30"},
+      {"type": "节日", "name": "纪念日", "year": "2020", "date": "10-01"},
       {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
       {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     ],
@@ -75,11 +75,10 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2015-05-01"},
+      {"keyword": "love_day", date: "2020-10-01"},
       // 结婚纪念日
       {"keyword": "marry_day", date: "2020-01-04"},
-      // 退伍日, 不用可以删掉
-      {"keyword": "ex_day", date: "2022-08-31"},
+      
       // sakana日
       // {"keyword": "sakana_day", date: "2022-01-06"},
       // ... 
