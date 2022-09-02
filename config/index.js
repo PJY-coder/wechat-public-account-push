@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "a995d297f2353b1a4eb6b3fb41dbb94d",
 
     // 模板消息id
-    TEMPLATE_ID: "8dnQ0AwrIP8XYlV1MqAOn50i6vQEMEHgeELIv0OB8gM",
+    TEMPLATE_ID: "E2eekXlSY7cHd19cbsYcrTGYmtcfX5-fCxeYzeD2awM",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "send successfully !",
+    CALLBACK_TEMPLATE_ID: "3129oWzJhrczFhPHU62wj0GWecagRPNtjhYTkAkNPw0",
 
 
     /**
@@ -41,9 +41,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "陕西",
+    PROVINCE: "湖北",
     // 所在城市
-    CITY: "西安",
+    CITY: "黄石",
 
     /** 重要节日相关 */
 
@@ -54,9 +54,9 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "生日", "year": "2000", "date": "03-30"},
-      {"type": "节日", "name": "纪念日", "year": "2020", "date": "10-01"},
-//       {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
+      {"type": "生日", "name": "夹心", "year": "2000", "date": "03-30"},
+      {"type": "节日", "name": "相恋纪念日", "year": "2020", "date": "10-01"},
+      {"type": "节日", "name": "23考研", "year": "2022", "date": "12-23"},
 //       {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
     ],
 
@@ -65,7 +65,7 @@ export const config = {
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
      */
-    FESTIVALS_LIMIT: 2,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
@@ -77,7 +77,7 @@ export const config = {
       // 在一起的日子
       {"keyword": "love_day", date: "2020-10-01"},
       // 结婚纪念日
-      {"keyword": "marry_day", date: "2020-01-04"},
+//       {"keyword": "marry_day", date: "2020-01-04"},
       
       // sakana日
       // {"keyword": "sakana_day", date: "2022-01-06"},
