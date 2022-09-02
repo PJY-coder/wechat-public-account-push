@@ -24,8 +24,8 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '自己', id: "owgbX5ibnJiWTecpkoRKdi1NRbUc"}, 
-//       {name: '夹心', id: "owgbX5n1lfyKkL1bSuz9hFIq6IqM"}, 
+//       {name: '自己', id: "owgbX5ibnJiWTecpkoRKdi1NRbUc"}, 
+      {name: '夹心', id: "owgbX5n1lfyKkL1bSuz9hFIq6IqM"}, 
 //       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
 //       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
