@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "a995d297f2353b1a4eb6b3fb41dbb94d",
 
     // 模板消息id
-    TEMPLATE_ID: "UlNfIhVXWwQ16z2Yjxe5NX_saLv9K0q6Dap1VCbzuvY",
+    TEMPLATE_ID: "pQk9oSDHE7HZijpn5exyluhDO3nRgdD_N3-gKsAgApw",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "3129oWzJhrczFhPHU62wj0GWecagRPNtjhYTkAkNPw0",
+    CALLBACK_TEMPLATE_ID: "	x9IbRdU7biDyVXhnWfG1VXuG_rvA503ZNn_Pt-q_Jl0",
 
 
     /**
@@ -24,8 +24,8 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '自己', id: "owgbX5ibnJiWTecpkoRKdi1NRbUc"}, 
-//       {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
+//       {name: '自己', id: "owgbX5ibnJiWTecpkoRKdi1NRbUc"}, 
+      {name: '夹心', id: "owgbX5n1lfyKkL1bSuz9hFIq6IqM"}, 
 //       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
 //       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
